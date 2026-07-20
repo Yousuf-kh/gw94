@@ -1,6 +1,7 @@
 import React from "react"
 import Robot from "./Components/Robot"
 import Welcome from "./Components/Welcome"
+import Currency from "./Components/Currency"
 
 const App = function () {
   return (
@@ -11,7 +12,7 @@ const App = function () {
       <Robot name="Bubmbey" color="yellow" />
       <Robot name="Iron Man" color="red" />
 
-
+      <Currency />
       <Welcome />
     </div>
   )

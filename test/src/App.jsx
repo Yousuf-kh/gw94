@@ -3,7 +3,7 @@ import Robot from "./Components/Robot"
 import Welcome from "./Components/Welcome"
 import Currency from "./Components/Currency"
 import Form from "./Components/Form"
-
+import Practise from "./Components/Practise"
 const App = function () {
   return (
     <div>
@@ -16,7 +16,9 @@ const App = function () {
       <Currency />
       <Welcome /> */}
 
-      <Form />
+      {/* <Form /> */}
+      {/* <FormTest /> */}
+      <Practise />
     </div>
   )
 }

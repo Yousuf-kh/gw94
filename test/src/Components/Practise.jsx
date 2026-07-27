@@ -40,7 +40,7 @@ const Practise = () => {
                         {errors.confirmPassword && <p className='text-red-500 text-sm'>{errors.confirmPassword.message || 'Confirm your password'}</p>}
                     </div>
 
-                    <button type="submit" className='border w-[67%] p-3 rounded-2xl '>Sign Up</button>
+                    <button className='border w-[67%] p-3 rounded-2xl '>Sign Up</button>
 
                 </form>
             </div>

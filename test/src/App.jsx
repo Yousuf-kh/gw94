@@ -4,6 +4,7 @@ import Welcome from "./Components/Welcome"
 import Currency from "./Components/Currency"
 import Form from "./Components/Form"
 import Practise from "./Components/Practise"
+import Useeffect from "./Components/Useeffect"
 const App = function () {
   return (
     <div>
@@ -18,7 +19,8 @@ const App = function () {
 
       {/* <Form /> */}
       {/* <FormTest /> */}
-      <Practise />
+      {/* <Practise /> */}
+      <Useeffect />
     </div>
   )
 }
